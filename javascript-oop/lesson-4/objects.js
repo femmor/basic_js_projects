@@ -1,15 +1,25 @@
 
 class User {
+    //  constructor
     constructor(name, email) {
         this.name = name;
         this.email = email
     }
+
+    //  class methods
+    login() {
+        console.log(this.name, "just logged in")
+    }
+
+    logout() {
+        console.log(this.name, "just logged out")
+    }
 }
 
-let users = [];
+
 
 var userOne = new User("femmy", "femmy@gmail.com");
 var userTwo = new User("edwige", "edwige@gmail.com");
 
-users.push(userOne, userTwo);
-console.log(users)
+userOne.login()
+userTwo.logout()
