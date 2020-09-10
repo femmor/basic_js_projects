@@ -17,7 +17,6 @@ class User {
 }
 
 
-
 var userOne = new User("femmy", "femmy@gmail.com");
 var userTwo = new User("edwige", "edwige@gmail.com");
 

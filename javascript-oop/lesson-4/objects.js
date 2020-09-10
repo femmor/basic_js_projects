@@ -44,3 +44,5 @@ console.log(users)
 
 admin.deleteUser(userOne)
 console.log(users)
+
+userOne.deleteUser(userTwo)
